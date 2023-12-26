@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeVerse Studio - Music Player</title>
+    <link rel="stylesheet" href="css/icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>
+            Codeverse Studio - Music Player
+        </h1>
+
+        <img src="images/headphones.jpg" alt="">
+
+        <div id="addlist">
+            <h3>Add to Playlist</h3>
+            <hr>
+            <ul>
+                <li><i class="fa-regular fa-plus"></i>Create Playlist</li>
+                <li>Now Playing</li>
+                <li>Favourites</li>
+            </ul>
+        </div>
+        <div class="music">
+            <div class="nav-icons">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-list" id="addlistbtn"></i>
+                <i class="fa-solid fa-music"></i>
+                <i class="fa-solid fa-chart-simple"></i>
+                <i class="fa-solid fa-clock"></i>
+            </div>
+
+            <div class="track">
+                <p>
+                    Benny_Blanco_Halsey_&_Khalid_-_Eastside_(Lyrics)(128k)
+                </p>
+
+                <div class="timer">
+                    <span>00:00</span>
+                    <div class="time-bar">
+                        <div class="timer-dot"></div>
+                    </div>
+                    <span>02:53</span>
+                </div>
+
+                <div class="controls">
+                    <i class="fa-solid fa-shuffle"></i>
+                    <i class="fa-solid fa-backward"></i>
+                    <i class="fa-solid fa-play" id="ppbtn"></i>
+                    <i class="fa-solid fa-forward"></i>
+                    <i class="fa-solid fa-repeat"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
