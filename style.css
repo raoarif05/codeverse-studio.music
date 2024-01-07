@@ -151,6 +151,7 @@ body {
     top: -20%;
     background: linear-gradient(to right, var(--addlist-clr-blue
     ), var(--addlist-clr-pink));
+    backdrop-filter: blur(5px);
     border-radius: 8px;
     transition: 0.25s;
 }
